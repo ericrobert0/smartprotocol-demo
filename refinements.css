@@ -1,0 +1,25 @@
+/* Responsive containment and self-contained demo chart. */
+body{overflow-x:clip}
+.phone-body{max-height:466px;overflow:auto;scrollbar-width:none;padding-bottom:18px}
+.phone-brand{margin-bottom:20px}
+.phone-summary strong{font-size:25px}
+.phone-summary{padding:12px}
+.phone-stats{margin-top:8px}
+.phone-subheading{margin-top:14px}
+.phone-row{padding:8px 0}
+.phone-chart i{height:55%}
+.phone-chart i:nth-child(7n+1){height:30%}
+.phone-chart i:nth-child(7n+2){height:48%}
+.phone-chart i:nth-child(7n+3){height:40%}
+.phone-chart i:nth-child(7n+4){height:65%}
+.phone-chart i:nth-child(7n+5){height:56%}
+.phone-chart i:nth-child(7n+6){height:80%}
+.phone-chart i:nth-child(7n){height:95%}
+.service-card p{font-size:14px}
+@media(max-width:760px){
+  .hero h1{font-size:clamp(36px,10.8vw,48px);letter-spacing:-2px}
+  .hero-art{clip-path:inset(-20px -10px -20px -10px)}
+  .hero-actions{flex-direction:column;align-items:stretch;max-width:340px}
+  .hero-actions .button{font-size:13px}
+  .service-card h3 br{display:block}
+}
